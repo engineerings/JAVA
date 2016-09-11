@@ -1,0 +1,21 @@
+# Singleton
+
+# Usage
+- Guarantee one instance
+
+# Concepts
+- Only one instance created
+- Guarantees control of a resource
+- Lazily loaded
+
+
+# Info
+- Often overused
+- Difficult to unit test(private constructors, members)
+- Not threat-safe
+- Returns same instance
+- One constructor method - no args
+- No interface
+
+
+

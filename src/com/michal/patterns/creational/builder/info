@@ -1,0 +1,24 @@
+# Builder
+
+# Concepts
+- Handles complex constructors
+- Large number of parameters
+- Immutability
+
+ex: "StringBuilder"
+
+# Design
+- Flexibility over telescoping constructors
+- Static inner class
+- calls appropriate constructor
+- Negates the need for exposed setters
+
+# info
+- Objects crated are immutable
+- Pattern has a static inner class
+- Designed first
+- Add complexity
+- Handles complex constructors
+- No interface required
+- Can be a separated class
+- Work with legacy code

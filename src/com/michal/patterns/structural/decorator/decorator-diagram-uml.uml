@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.michal.patterns.structural.decorator.MainDecorator</OriginalElement>
+  <nodes>
+    <node x="374.0" y="-143.5">com.michal.patterns.structural.decorator.MainDecorator</node>
+    <node x="-17.5" y="-16.0">com.michal.patterns.structural.decorator.DressingDecorator</node>
+    <node x="533.5" y="50.5">com.michal.patterns.structural.decorator.Sandwich</node>
+    <node x="-13.0" y="184.0">com.michal.patterns.structural.decorator.CheeseDecorator</node>
+    <node x="332.0" y="50.5">com.michal.patterns.structural.decorator.StandardSanwich</node>
+    <node x="495.5" y="183.5">com.michal.patterns.structural.decorator.SandwichDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.michal.patterns.structural.decorator.MainDecorator" target="com.michal.patterns.structural.decorator.StandardSanwich">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.michal.patterns.structural.decorator.MainDecorator" target="com.michal.patterns.structural.decorator.DressingDecorator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.michal.patterns.structural.decorator.MainDecorator" target="com.michal.patterns.structural.decorator.CheeseDecorator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.michal.patterns.structural.decorator.SandwichDecorator" target="com.michal.patterns.structural.decorator.Sandwich">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.michal.patterns.structural.decorator.DressingDecorator" target="com.michal.patterns.structural.decorator.CheeseDecorator">
+      <point x="0.0" y="56.0" />
+      <point x="0.0" y="-56.0" />
+    </edge>
+    <edge source="com.michal.patterns.structural.decorator.CheeseDecorator" target="com.michal.patterns.structural.decorator.SandwichDecorator">
+      <point x="133.0" y="-0.0" />
+      <point x="-104.5" y="-0.0" />
+    </edge>
+    <edge source="com.michal.patterns.structural.decorator.StandardSanwich" target="com.michal.patterns.structural.decorator.Sandwich">
+      <point x="68.0" y="-0.0" />
+      <point x="-66.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="343.5" y="207.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

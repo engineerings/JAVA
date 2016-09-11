@@ -1,0 +1,27 @@
+# Decorator
+
+Pattern that builds functionality at each level using composition from similar data types
+
+# Concepts
+- Called a wrapper
+- Add behavior without affecting others
+- More than just inheritance
+- Single responsibility
+- Compose behavior dynamically
+
+ex: java.io.InputStream, UI components(awt lib)
+
+# Design
+- Inheritance based
+- Utilizes composition and inheritance
+- Alternative to subclassing
+- Constructor requires instance form hierarchy
+
+# Info
+- New class for every feature added
+- Multiple little objects
+- Often confused with simple inheritance
+- Contains another entity
+- Modifies behavior
+- Doesn't change underlying object
+- Unique way to add functionality

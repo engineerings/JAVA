@@ -1,0 +1,19 @@
+Flyweight Design
+
+- Pattern of patterns
+- Utilizes a Factory Pattern to retrieve a Flyweight objects after creation
+- Encompasses creation and structure
+- Memory optimization
+- Immutable Objects
+-
+
+UML
+- Client
+- Factory
+- Flyweight
+- Concrete Flyweight
+
+INFO
+- Premature optimization
+- Work with Factory pattern
+
